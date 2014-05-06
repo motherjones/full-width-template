@@ -1,0 +1,140 @@
+/* start main container styles */
+#shell960 {
+	font-family: verdana;
+    font-size:1.2em;
+	padding: 20px 100px;
+}
+/* end main container styles */
+	
+/* start figure styles */	
+
+#shell960 img {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}	
+	
+#shell960 img.width960 {	
+	
+}
+/* end figure styles */	
+
+
+/* style the sections */
+#shell960 aside, #shell960 section  {
+	margin-bottom: 2em;
+}
+
+/* style the block quotes */
+
+blockquote {
+
+}
+
+/* start typeface styles */
+#shell960 p {
+	
+}
+
+#shell960 h2, #shell960 .subhead {
+	margin:.2em;
+}
+
+#shell960 .subhead {
+	
+	font-size:.95em;
+	font-weight:100;
+}
+
+/* style h3s */
+
+#shell960 h2 {
+	
+	background-image: url('http://assets.motherjones.com/politics/2014/04/oil-icon.gif');
+	padding-left: 1em;
+	background-repeat: no-repeat;
+	background-position: -10 0;
+	background-size: 1.25em 1.25em;
+}
+
+
+
+	
+/* style lists */
+
+#shell960 ul {
+	list-style-type: circle;
+}
+
+#shell960 li {
+	margin-bottom:1.2em;
+}
+
+
+/* style for small screens */
+
+@media only screen 
+and (max-width: 480px) {
+	
+	div#shell960 {
+	    font-size:1em;
+		width: 98%;
+	}
+
+	#shell960 div.right, div.left, div.full, div.zebra {
+		width: 100%;
+		margin: .2em;
+		border-bottom: none;
+		padding: 10px;
+	}
+	
+	#shell960 .zebra {
+		padding: 10px;
+	}
+	
+	#shell960 .floatRight {
+		float:none;
+		clear:none;
+		margin: 0 auto;
+	}
+
+	#shell960 .floatLeft {
+		float:none;
+		clear:none;
+		margin: 0 auto;
+	}
+	
+	#shell960 .floatRight img, #shell960 .floatLeft img {
+		width: 100%;
+	}
+	
+	#shell960 div.full img, #shell960 img {
+		width:100%;
+		margin: 0 auto;
+	}
+	
+	#shell960 div.full img {
+	
+		margin: 0 auto;		
+		width: 100%;
+	}
+	
+	#shell960 div.full img.width960 {	
+		margin:0 auto;
+	}
+	
+	#shell960 ul {
+		margin: 0 auto;
+		padding: 10px;
+	}
+
+	#shell960 h3 {
+		background-image: none;
+	}
+
+	#shell960 .big, #shell960 .m-hide {
+		display: none;
+	}
+	
+}
+
+
